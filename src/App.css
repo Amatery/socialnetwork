@@ -13,7 +13,7 @@
 
 .header {
     grid-area: h;
-    background-color: brown;
+    background-color: steelblue;
 }
 
 .header img {
@@ -24,12 +24,12 @@
 
 .nav {
     grid-area: n;
-    background-color: darkgrey;
+    background-color: lightslategray;
 }
 
 .content {
     grid-area: c;
-    background-color: aquamarine;
+    background-color: darkred;
 }
 
 
