@@ -21,6 +21,7 @@ let store = {
             newPostText: ''
         },
 
+
         dialogsPage: {
             messages: [
                 {id: 1, message: 'Alpha test v0.1'},
@@ -38,8 +39,9 @@ let store = {
                 {id: 5, name: 'Sergey'},
                 {id: 6, name: 'Irina'}
             ],
-            newMessageBody: ""
+            newMessageBody: "",
         },
+
 
         sidebar: {}
 
@@ -66,10 +68,6 @@ let store = {
 
     }
 };
-
-
-
-
 
 
 export default store;
