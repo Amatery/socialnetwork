@@ -9,10 +9,6 @@ const ProfileInfo = (props) => {
     }
     return (
         <div>
-            {/*<div>*/}
-            {/*    <img className={s.img}*/}
-            {/*         src='https://cdn.dribbble.com/users/730703/screenshots/6066059/dz_xn3lw0aiyrt6.jpg' alt='imgLogo'/>*/}
-            {/*</div>*/}
             <div className={s.descriptionBlock}>
                 <img src={props.profile.photos.large} alt='User photo'/>
                 <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
